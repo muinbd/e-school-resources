@@ -1,0 +1,174 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+header {
+    background-color: #F0FFF0;
+    height: 576px;
+    margin-bottom: 42px;
+}
+
+section {
+    margin-bottom: 42px;
+}
+
+nav {
+    padding-top: 30px;
+}
+
+.navbar img {
+    width: 198px;
+    height: 59px;
+}
+
+.navbar-nav a {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.button-green {
+    background-color: #21B573;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 33px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.get-started {
+    padding-top: 93px;
+}
+
+.get-started h1 {
+    font-weight: 700;
+}
+
+.get-started h6 {
+    color: #FD511A;
+    font-size: 1rem;
+}
+
+.get-started p {
+    color: #6C6B6B;
+}
+
+.text-green {
+    color: #21B573;
+}
+
+.get-started img {
+    width: 80%;
+}
+
+.get-started button {
+    padding: 12px 36px;
+}
+
+.card-deck {
+    text-align: center;
+}
+
+.card {
+    background-color: #F8FFFB;
+    border: none;
+}
+
+.card img {
+    width: 25%;
+    padding-top: 50px;
+}
+
+.card h5 {
+    font-size: 24px;
+    color: #413960;
+}
+
+.card p {
+    color: #585859;
+}
+
+.card-active {
+    box-shadow: 5px 5px 30px lightgray;
+    background-color: #FFFFFF;
+}
+
+#courses h2 {
+    font-size: 36px;
+    padding: 42px 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+#courses .card {
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 30px lightgray;
+}
+
+#courses .card img {
+    width: 100%;
+    padding: 25px 25px;
+}
+
+#courses button {
+    padding: 8px 28px;
+}
+
+.card-footer {
+    border-top: none;
+    background-color: #FFFFFF;
+}
+
+#courses .card-body {
+    text-align: left;
+}
+
+#testimonial h2 {
+    font-size: 36px;
+    padding: 42px 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+#testimonial img {
+    width: 100%;
+}
+
+#testimonial p {
+    color: #000000;
+    text-align: left;
+}
+
+footer {
+    background-color: #282531;
+    height: 369px;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer h5 {
+    color: #FFFFFF;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+footer p {
+    color: #FFFFFF;
+    line-height: 1;
+}
+
+footer .row {
+    padding-top: 50px;
+}
+
+.copyright {
+    color: #CDCDCD;
+    text-align: center;
+    padding-top: 50px;
+}
+
