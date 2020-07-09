@@ -151,10 +151,11 @@ footer ul li {
     list-style-type: none;
 }
 
-footer h5 {
+footer h6 {
     color: #FFFFFF;
     font-weight: 700;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
 }
 
 footer p {
@@ -170,5 +171,13 @@ footer .row {
     color: #CDCDCD;
     text-align: center;
     padding-top: 50px;
+}
+
+footer ul li a {
+    color: #FFFFFF;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
 }
 
