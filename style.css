@@ -16,6 +16,8 @@ section {
     margin-bottom: 42px;
 }
 
+/* Navbar */
+
 nav {
     padding-top: 30px;
 }
@@ -38,6 +40,8 @@ nav {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
 }
+
+/* Get Started */
 
 .get-started {
     padding-top: 93px;
