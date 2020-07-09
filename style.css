@@ -74,13 +74,14 @@ nav {
 
 /* Statistics */
 
-.card-deck {
+#books .card-deck {
     text-align: center;
 }
 
-.card {
+#books .card {
     background-color: #F8FFFB;
     border: none;
+    border-radius: 10px;
 }
 
 .card img {
@@ -97,7 +98,7 @@ nav {
     color: #585859;
 }
 
-.card-active {
+#books .card-active {
     box-shadow: 5px 5px 30px lightgray;
     background-color: #FFFFFF;
 }
@@ -111,14 +112,16 @@ nav {
     font-weight: 700;
 }
 
-#courses .card {
+#courses .card-deck .card {
     background-color: #FFFFFF;
     box-shadow: 5px 5px 30px lightgray;
+    border-radius: 18px 18px 18px 18px;
 }
 
 #courses .card img {
     width: 100%;
     padding: 25px 25px;
+    border-radius: 5px;
 }
 
 #courses button {
@@ -132,6 +135,26 @@ nav {
 
 #courses .card-body {
     text-align: left;
+}
+
+#courses .card .card-footer .my-icon img {
+    width: 24px;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.card-footer .my-icon small {
+    font-size: 16px;
+    color: #585859;
+    font-weight: 500;
+}
+
+.card-footer:last-child {
+    border-radius: 18px;
+}
+
+.my-icon {
+    padding-bottom: 25px;
 }
 
 /* Testimonial */
@@ -179,10 +202,10 @@ footer .row {
     padding-top: 50px;
 }
 
-.copyright {
+.copyright p {
     color: #CDCDCD;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 footer ul li a {
@@ -218,7 +241,7 @@ footer ul li a:hover {
 
 @media (max-width: 575.98px) {
     #testimonial img {
-        padding-bottom: 25px;        
+        padding-bottom: 25px;
     }
 
     footer {
