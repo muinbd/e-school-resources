@@ -72,6 +72,8 @@ nav {
     padding: 12px 36px;
 }
 
+/* Statistics */
+
 .card-deck {
     text-align: center;
 }
@@ -99,6 +101,8 @@ nav {
     box-shadow: 5px 5px 30px lightgray;
     background-color: #FFFFFF;
 }
+
+/* Online Courses */
 
 #courses h2 {
     font-size: 36px;
@@ -130,6 +134,8 @@ nav {
     text-align: left;
 }
 
+/* Testimonial */
+
 #testimonial h2 {
     font-size: 36px;
     padding: 42px 0;
@@ -145,6 +151,8 @@ nav {
     color: #000000;
     text-align: left;
 }
+
+/* Footer */
 
 footer {
     background-color: #282531;
@@ -185,3 +193,36 @@ footer ul li a:hover {
     text-decoration: none;
 }
 
+/* Media Queries */
+
+@media (max-width: 991.98px) {
+    nav a {
+        margin-left: 28px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    header {
+        height: 100%;
+    }
+
+    #books {
+        margin-top: 50px;
+    }
+
+    footer {
+        height: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #testimonial img {
+        padding-bottom: 25px;        
+    }
+
+    footer {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+}
