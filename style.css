@@ -2,10 +2,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.container {
-    max-width: 1440px;
-}
-
 header {
     background-color: #F0FFF0;
     height: 576px;
@@ -241,6 +237,7 @@ footer ul li a:hover {
 
 @media (max-width: 575.98px) {
     #testimonial img {
+
         padding-bottom: 25px;
     }
 
